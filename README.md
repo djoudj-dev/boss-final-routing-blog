@@ -1,3 +1,5 @@
+Boss final du Module 5 sur [Easy Angular Kit](https://easyangularkit.com?via=djoudj) - Par [Gaëtan Redin](https://www.linkedin.com/in/gaetan-redin/)
+
 # Blog Angular - Clean Architecture & Routing Avance
 
 Application blog construite avec **Angular 21**, demonstrant les bonnes pratiques de **Clean Architecture**, le **routing avance** et la **reactivite par signaux**.

@@ -1,0 +1,76 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "title": "Introduction a Angular 21",
+      "author": "admin",
+      "content": "Angular 21 est la derniere version majeure du framework Angular. Il introduit de nombreuses ameliorations en termes de performance, de DX (Developer Experience) et de modernisation de l'API. Les composants standalone sont desormais la norme, les signaux remplacent progressivement les observables pour la gestion d'etat local, et le systeme de build basé sur esbuild offre des temps de compilation ultra-rapides. Dans cet article, nous explorons les nouveautes les plus marquantes et comment en tirer parti dans vos projets.",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop",
+      "createdAt": "2026-01-15"
+    },
+    {
+      "id": "2",
+      "title": "Les Signaux en profondeur",
+      "author": "admin",
+      "content": "Les signaux sont le nouveau paradigme reactif d'Angular. Ils offrent une alternative plus simple et plus performante aux observables pour la gestion d'etat local. Un signal est une valeur encapsulee qui notifie automatiquement les consommateurs lorsqu'elle change. Avec computed() pour les valeurs derivees et effect() pour les effets de bord, les signaux forment un ecosysteme reactif complet. Dans cet article, nous plongeons dans les details de leur fonctionnement et les meilleures pratiques pour les utiliser.",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop",
+      "createdAt": "2026-01-22"
+    },
+    {
+      "id": "3",
+      "title": "Clean Architecture avec Angular",
+      "author": "admin",
+      "content": "La Clean Architecture est un patron de conception qui separe clairement les responsabilites dans votre application. En Angular, cela se traduit par une couche Domain (modeles, interfaces de gateway, use cases), une couche Infrastructure (implementations HTTP, localStorage, etc.) et une couche Application (composants, services Angular). Cette separation permet de tester facilement la logique metier, de changer d'implementation sans toucher au domaine, et de maintenir un code propre et evolutif.",
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop",
+      "createdAt": "2026-02-01"
+    },
+    {
+      "id": "4",
+      "title": "Le Routing avance en Angular",
+      "author": "jane",
+      "content": "Le systeme de routing d'Angular est extremement puissant. Au-dela des routes basiques, il offre le lazy loading pour charger les modules a la demande, les guards pour proteger les routes, les resolvers pour pre-charger les donnees, et les animations de transition entre les pages. Avec withComponentInputBinding(), les parametres de route sont automatiquement injectes comme inputs dans les composants. Dans cet article, nous explorons ces fonctionnalites avancees avec des exemples concrets.",
+      "image": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=800&h=400&fit=crop",
+      "createdAt": "2026-02-10"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "idArticle": "1",
+      "author": "jane",
+      "content": "Super article ! Les signaux changent vraiment la donne."
+    },
+    {
+      "id": "2",
+      "idArticle": "1",
+      "author": "john",
+      "content": "Merci pour ces explications claires sur Angular 21."
+    },
+    {
+      "id": "3",
+      "idArticle": "3",
+      "author": "jane",
+      "content": "La clean architecture est essentielle pour les gros projets."
+    },
+    {
+      "id": "39b5",
+      "idArticle": "1",
+      "author": "admin",
+      "content": "youpla"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "login": "admin",
+      "password": "admin",
+      "name": "Admin"
+    },
+    {
+      "id": "2",
+      "login": "jane",
+      "password": "jane",
+      "name": "Jane Doe"
+    }
+  ]
+}
